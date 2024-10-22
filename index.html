@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Shop</title>
+    <link rel="icon" href="chrismas tre.jpg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="welcomePopup" class="welcome-popup">Welcome to the Christmas Shop!</h1>
+        <p>Get your festive items now!</p>
+    </header>
+
+    <section class="products">
+        <h2>Shop Christmas Items</h2>
+
+        <div class="product-item">
+            <img src="chrismas tre.jpg" alt="Christmas Tree">
+            <h3>Christmas Tree</h3>
+            <p>$50</p>
+            <!-- PayPal Button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+
+        <div class="product-item">
+            <img src="chrismas hat.jpg" alt="Santa Hat">
+            <h3>Santa Hat</h3>
+            <p>$10</p>
+            <!-- PayPal Button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <div class="product-item">
+            <img src="chrismas deco.jpg" alt="Santa Hat">
+            <h3>Christmas deco</h3>
+            <p>$10</p>
+            <!-- PayPal Button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <div class="product-item">
+            <img src="chrismas neck.jpg" alt="Santa Hat">
+            <h3>Christmas deco</h3>
+            <p>$10</p>
+            <!-- PayPal Button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+
+        <!-- Add more products as needed -->
+<div class="product-item">
+    <img src="utensils 001.jpg" alt="Santa Hat">
+    <h3>folks and spoons</h3>
+    <p>$30</p>
+    <!-- PayPal Button -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</div>
+<div class="product-item">
+    <img src="utensils 002.jpg" alt="Santa Hat">
+    <h3>utensils</h3>
+    <p>$25</p>
+    <!-- PayPal Button -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Christmas Shop. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript to remove the pop-up after 3 seconds
+        window.onload = function() {
+            const popup = document.getElementById("welcomePopup");
+            setTimeout(function() {
+                popup.classList.add("hidden");
+            }, 3000); // 3 seconds delay before hiding the pop-up
+        };
+    </script>
+</body>
+</html>
